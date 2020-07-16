@@ -12,7 +12,7 @@
             Purple Fox
           </h1>
           <h2 class="text-lg text-gray-600 text-center max-w-xs mx-auto">
-            Premium, high-powered website solutions for your business needs.
+            Premium, high-powered web solutions for your business needs.
           </h2>
           <hr class="border border-purple-600 w-1/2 mx-auto my-2" />
         </section>
