@@ -11,11 +11,13 @@ module.exports = {
         '3/4': '75vh'
       },
       colors: {
-        primary: '#6417e3'
+        primary: '#6417e3',
+        'primary-light': 'rgb(139, 70, 253)'
       }
     }
   },
-  variants: {},
+  variants: {
+  },
   plugins: [],
   purge: {
     // Learn more on https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css

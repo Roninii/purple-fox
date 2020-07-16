@@ -1,3 +1,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.button--primary {
+  @apply bg-primary;
+  @apply border;
+  @apply border-primary;
+  @apply rounded;
+  @apply px-4;
+  @apply py-2;
+}
+
+.button--primary:hover {
+  @apply bg-primary-light;
+}
+
+.button--secondary {
+}
