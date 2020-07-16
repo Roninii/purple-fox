@@ -1,6 +1,8 @@
 <template>
   <nav class="px-8 flex justify-between items-end">
-    <img src="/logo.svg" width="50px" class="block" />
+    <nuxt-link to="/">
+      <img src="/logo.svg" width="50px" class="block" />
+    </nuxt-link>
     <div class="flex justify-end">
       <nuxt-link
         class="p-4 uppercase text-lg text-gray-700 hover:text-primary"
@@ -14,12 +16,6 @@
         active-class="text-primary underline"
         to="/portfolio"
         >Portfolio</nuxt-link
-      >
-      <nuxt-link
-        class="p-4 uppercase text-lg text-gray-700 hover:text-primary"
-        active-class="text-primary underline"
-        to="/about"
-        >About</nuxt-link
       >
       <nuxt-link
         class="p-4 uppercase text-lg text-gray-700 hover:text-primary"

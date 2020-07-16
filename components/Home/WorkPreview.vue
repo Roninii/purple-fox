@@ -1,12 +1,13 @@
 <template>
   <div>
     <article class="bg-primary -mt-8">
-      <header class="max-w-screen-xl mx-auto">
-        <h3 class="text-white uppercase text-4xl text-center">What we do</h3>
-        <p class="text-purple-200 text-lg max-w-xl mx-auto">
+      <header class="max-w-screen-xl mx-auto text-center">
+        <h3 class="text-white uppercase text-4xl">What we do</h3>
+        <p class="text-purple-300 text-lg max-w-xl mx-auto">
           We build beautiful, performant websites that bring your business to
           the digital age so that you can focus on what matters to you.
         </p>
+        <hr class="max-w-xs border border-purple-300 mx-auto my-2" />
       </header>
       <section class="flex wrap justify-evenly max-w-screen-lg mx-auto py-8">
         <Card v-for="n in 3" :key="n" :title="String(n)" />
