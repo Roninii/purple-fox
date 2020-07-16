@@ -5,7 +5,16 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  theme: {},
+  theme: {
+    extend: {
+      minHeight: {
+        '3/4': '75vh'
+      },
+      colors: {
+        primary: '#6417e3'
+      }
+    }
+  },
   variants: {},
   plugins: [],
   purge: {
