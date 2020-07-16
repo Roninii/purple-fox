@@ -12,15 +12,10 @@
       <section class="flex wrap justify-evenly max-w-screen-lg mx-auto py-8">
         <Card v-for="n in 3" :key="n" :title="String(n)" />
       </section>
-      <div class="max-w-screen-sm mx-auto flex justify-evenly py-8">
+      <div class="max-w-screen-sm mx-auto flex justify-center py-8">
         <nuxt-link
-          class="bg-white text-primary px-4 py-2 w-32 text-center rounded shadow hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
+          class="bg-white text-primary uppercase text-lg font-medium px-4 py-2 w-32 text-center rounded shadow hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
           to="/contact"
-          >Get in touch</nuxt-link
-        >
-        <nuxt-link
-          class="rounded px-4 py-2 w-32 text-center text-white hover:bg-white hover:text-primary hover:shadow-xl transition duration-300 transform hover:-translate-y-1"
-          to="/portfolio"
           >See more</nuxt-link
         >
       </div>
